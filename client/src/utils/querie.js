@@ -8,7 +8,7 @@ export const GET_ME = gql`
       email
       bookCount
       savedBooks{
-        bookId
+        bookID
         authors
         image
         description
@@ -16,5 +16,6 @@ export const GET_ME = gql`
         link
       }
     }
+
   }
 `;
