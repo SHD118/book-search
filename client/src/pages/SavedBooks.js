@@ -15,7 +15,7 @@ const SavedBooks = () => {
   const {loading, data} = useQuery(GET_ME);
   const userData = data?.me || [];
   // use this to determine if `useEffect()` hook needs to run again
-  const userDataLength = Object.keys(userData).length;
+  // const userDataLength = Object.keys(userData).length;
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
     if (!token) {
@@ -41,7 +41,7 @@ const SavedBooks = () => {
   }
 
   // sync localStorage with what was returned from the userData query
-  const savedBookIds = userData.savedBooks.map((book) => book.bookId);
+  const savedBookIds = userData.savedBooks.map((book) => book.bookID);
   saveBookIds(savedBookIds);
 //   useEffect(() => {
 //     const getUserData = async () => {
@@ -123,7 +123,7 @@ const SavedBooks = () => {
                   <Card.Title>{book.title}</Card.Title>
                   <p className='small'>Authors: {book.authors}</p>
                   <Card.Text>{book.description}</Card.Text>
-                  <Button className='btn-block btn-danger' onClick={() => handleDeleteBook(book.bookId)}>
+                  <Button className='btn-block btn-danger' onClick={() => handleDeleteBook(book.bookID)}>
                     Delete this Book!
                   </Button>
                 </Card.Body>
