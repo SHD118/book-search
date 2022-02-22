@@ -42,7 +42,7 @@ const resolvers = {
       }
       throw new AuthenticationError("Must be logged In...");
     },
-    removeBook: async (parent, { bookId }, context) => {
+    deleteBook: async (parent, { bookId }, context) => {
       if (context.user) {
         return await User.findOneAndUpdate(
           { _id: context.user._id },
