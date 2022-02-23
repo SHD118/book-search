@@ -34,7 +34,7 @@ export const saveBook = (bookData, token) => {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${token}`,
+      authorization: `Bearer ${token}`,
     },
     body: JSON.stringify(bookData),
   });
@@ -45,7 +45,7 @@ export const deleteBook = (bookId, token) => {
   return fetch(`/api/users/books/${bookId}`, {
     method: 'DELETE',
     headers: {
-      Authorization: `Bearer ${token}`,
+      authorization: `Bearer ${token}`,
     },
   });
 };
