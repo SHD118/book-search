@@ -78,20 +78,7 @@ npm start
 
 
 ## Usage
-* Ensure all depencies and above steps are fulfilled 
-* Navigate to the working directory and open a terminal and run the below command
-```
-mysql -u root -p
-```
-* After enter password run the below command to initiliaze the database
-```
-SOURCE schema.sql || SOURCE seeds.sql
-```
-* Lastly run the seed to initialize the the database data and start the application with the following commands:
-```
-npm run seed
-npm run watch
-```
+N/A
 
 ## License
 Free Use
@@ -103,13 +90,13 @@ Want to see more of my work? [Github Link](git@github.com:SHD118/book-search.git
 Want to learn more please contact me at shdesai118@gmail.com
 
 ## Video
-https://www.awesomescreenshot.com/video/7558642
+
 
 ## Screenshots
+![](./client/public/Capture.PNG)
 ![](./client/public/Capture2.PNG)
-![](./Assets/Capture2.PNG)
-![](./Assets/Capture3.PNG)
-![](./Assets/Capture4.PNG)
+![](./client/public/Capture3.PNG)
+![](./client/public/Capture4.PNG)
 
 ## Links
 git@github.com:SHD118/book-search.git
