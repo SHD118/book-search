@@ -100,7 +100,7 @@ Want to learn more please contact me at shdesai118@gmail.com
 ![](./client/public/Capture4.PNG)
 
 ## Links
-git@github.com:SHD118/book-search.git
+https://github.com/SHD118/book-search
 <br/>
 <br/>
 https://warm-brook-05762.herokuapp.com/
