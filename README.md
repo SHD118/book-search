@@ -86,6 +86,8 @@ Free Use
 N/A
 ## Questions?
 Want to see more of my work? [Github Link](git@github.com:SHD118/book-search.git)
+[Github Link](https://github.com/SHD118/React-Portfolio/blob/master/README.md)
+
 <br/>
 Want to learn more please contact me at shdesai118@gmail.com
 
