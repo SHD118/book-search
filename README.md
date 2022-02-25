@@ -1,6 +1,6 @@
 # 21 MERN: Book Search Engine
 
-## Your Task
+## Description
 
 This project was leveraging google API search engine built with REST API. I refactor the code to be a GraphQL application build with Apollo Server. This application utilized MERN stack, React for the front end and MongoDB for the database, and Express server.
 
@@ -57,7 +57,6 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 4. [ License. ](#license)
 6. [ Tests. ](#tests)
 7. [ Questions. ](#questions)
-8. [ Video. ](#video)
 9. [ Screenshots. ](#screenshots)
 10. [ Links. ](#links)
 11. [ Resources. ](#resources)
