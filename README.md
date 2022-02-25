@@ -106,7 +106,7 @@ Want to learn more please contact me at shdesai118@gmail.com
 https://www.awesomescreenshot.com/video/7558642
 
 ## Screenshots
-![](./Assets/Capture.PNG)
+![](./client/public/Capture2.PNG)
 ![](./Assets/Capture2.PNG)
 ![](./Assets/Capture3.PNG)
 ![](./Assets/Capture4.PNG)
